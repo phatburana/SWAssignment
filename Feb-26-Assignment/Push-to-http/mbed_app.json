@@ -1,0 +1,21 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"Kakarem\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"59gxo6ge2ha6k\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        },
+        "DISCO_L475VG_IOT01A": {
+            "ism43362.provide-default": true
+        }
+    }
+}
+
